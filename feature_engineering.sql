@@ -54,6 +54,7 @@ BEGIN
     WHERE price IS NOT NULL;
 END $$;
 
+
 -- 6. Sales Rank (Percentile Rank)
 ALTER TABLE inventory ADD COLUMN sales_rank NUMERIC;
 
